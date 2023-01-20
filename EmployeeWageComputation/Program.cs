@@ -10,7 +10,9 @@ namespace EmployeeWageComputation
     {
         static void Main(string[] args)
         {
-            int isPresent = 1;
+            const int isPresent = 1;
+            int empHrs = 0;
+            const int empRatePerHr =20
             Console.WriteLine("Welcome To EmployeeWage Computation");
 
             //UC1 - EmployeeAttendence
